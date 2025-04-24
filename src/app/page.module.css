@@ -1,0 +1,83 @@
+.container_principal {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.container_input {
+    width: 100%;
+    max-width: 425px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_input img {
+    width: 50px;
+    height: 50px;
+}
+
+.container_input input {
+    border: 0;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container_input ::placeholder {
+    text-decoration: underline;
+}
+
+.container_cards{
+    width: 100%;
+    max-width: 425px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container_btns {
+    padding: 10px;
+    background-color: #000;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 425px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container_btns button {
+    padding: 15px 0;
+    flex: 1 1 100px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.container_btns button:nth-child(1){
+    background-color: green;
+}
+.container_btns button:nth-child(2){
+    background-color: blue;
+}
+.container_btns button:nth-child(3){
+    background-color: red;
+}
+.container_btns button:nth-child(4){
+    background-color: black;
+}
