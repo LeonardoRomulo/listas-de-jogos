@@ -21,8 +21,8 @@ export default function itemJogos({nome,plataforma}) {
       </figure>
 
       <div>
-        <p>{nome}
-          
+        <p>
+          {nome} 
         </p>
       </div>
     </div>

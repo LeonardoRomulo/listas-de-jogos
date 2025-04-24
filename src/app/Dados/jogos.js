@@ -11,6 +11,8 @@
   { id: 10, nome: "Zelda: Tears of Kingdom", plataforma: "nintendo" },
   { id: 11, nome: "Xenoblade Chronicles 3", plataforma: "nintendo" },
   { id: 12, nome: "Pokemon Scarlet & Violet", plataforma: "nintendo" },
+  {id: 13, nome: "The Last of Us", plataforma:"playstation"},
+  {id:14, nome:"Gears of Wars", plataforma: "xbox"},
 ];
 
-export default jogosExclusivos;
+export default  jogosExclusivos ;

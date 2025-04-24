@@ -8,7 +8,13 @@
     gap: 30px;
 }
 
+.container_principal h2{
+    color: #fff;
+}
+
 .container_input {
+    position: relative;
+    padding: 20px;
     width: 100%;
     max-width: 425px;
     border-radius: 50px;
@@ -18,18 +24,22 @@
     gap: 10px;
 }
 
-.container_input img {
-    width: 50px;
-    height: 50px;
-}
-
 .container_input input {
     border: 0;
     outline: none;
+    padding-left: 50px;
     background-color: #000;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
+    border-radius: 50px;
+}
+.container_input .lupa {
+    background-color: transparent;
+    position: absolute;
+    left: 15px; /* Posiciona a imagem dentro do input */
+    width: 50px;
+    height: 50px;
 }
 
 .container_input ::placeholder {
@@ -80,4 +90,9 @@
 }
 .container_btns button:nth-child(4){
     background-color: black;
+
+}
+.container_btns button:nth-child(4){
+    background-color: #fff;
+    color: #000;
 }
