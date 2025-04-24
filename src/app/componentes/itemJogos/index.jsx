@@ -4,7 +4,7 @@ import xboxLogo from "../../../../public/xbox-logo.png"
 import playstationLogo from "../../../../public/playstation-logo.jpg";
 import nintendoLogo from "../../../../public/nintendo-logo.jpg";
 
-export default function itemJogos({nome,plataforma}) {
+export default function ItemJogos({nome,plataforma}) {
   return (
     <div className={estilos.card}>
       <figure>
@@ -24,7 +24,28 @@ export default function itemJogos({nome,plataforma}) {
         <p>{nome}
           
         </p>
-      </div>
+      </div>      export default function ItemJogos({ nome, plataforma }) {
+        return (
+          <div className={estilos.card}>
+            <figure>
+              <Image
+                src={
+                  plataforma === "xbox"
+                    ? xboxLogo
+                    : plataforma === "playstation"
+                    ? playstationLogo
+                    : nintendoLogo
+                }
+                alt="logo"
+              />
+            </figure>
+      
+            <div>
+              <p>{nome}</p>
+            </div>
+          </div>
+        );
+      }
     </div>
   );
 }
