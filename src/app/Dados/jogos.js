@@ -1,4 +1,4 @@
- const jogosExclusivos = [
+const jogosExclusivos = [
   { id: 1, nome: "Contraband", plataforma: "xbox" },
   { id: 2, nome: "Avowed", plataforma: "xbox" },
   { id: 3, nome: "Starfield", plataforma: "xbox" },
